@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class SpellChecker {
 
-    private final Lexicon dictionary;
+    // private final Lexicon dictionary;
 
 
     /**
@@ -16,15 +16,15 @@ public class SpellChecker {
      *
      * @param dictionary
      */
-    public SpellChecker(Lexicon dictionary) {
-        this.dictionary = Objects.requireNonNull(dictionary);
-    }
+//    public SpellChecker(Lexicon dictionary) {
+//        this.dictionary = Objects.requireNonNull(dictionary);
+//    }
 
-    public boolean isValid(String word) {
-        // ...
-    }
+//    public boolean isValid(String word) {
+//        // ...
+//    }
 
-    public List<String> suggestions(String typo) {
-        // ...
-    }
+//    public List<String> suggestions(String typo) {
+//        // ...
+//    }
 }

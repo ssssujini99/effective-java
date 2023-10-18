@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class SpellChecker {
 
-    private final Lexicon dictionary = ...; // 사전에 의존함 -> 그런데 단 하나만 사용..?
+    // private final Lexicon dictionary = ...; // 사전에 의존함 -> 그런데 단 하나만 사용..?
 
     private SpellChecker() {}
 
@@ -15,13 +15,13 @@ public class SpellChecker {
      *
      * 싱글턴으로 구현
      */
-    public static SpellChecker INSTANCE = new SpellChecker(...);
+    // public static SpellChecker INSTANCE = new SpellChecker(...);
 
-    public boolean isValid(String word) {
-        // ...
-    }
+//    public boolean isValid(String word) {
+//        // ...
+//    }
 
-    public List<String> suggestions(String typo) {
-        // ...
-    }
+//    public List<String> suggestions(String typo) {
+//        // ...
+//    }
 }

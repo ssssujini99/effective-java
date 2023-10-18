@@ -11,7 +11,7 @@ import java.util.List;
 
 public class SpellChecker {
 
-    private static final Lexicon dictionary = ... ; // 사전에 의존함 -> 그런데 단 하나만 사용..?
+    // private static final Lexicon dictionary = ... ; // 사전에 의존함 -> 그런데 단 하나만 사용..?
 
     private SpellChecker() {} // 객체 생성 방지
 
@@ -19,11 +19,11 @@ public class SpellChecker {
      *
      * public static 메서드로 제공
      */
-    public static boolean isValid(String word) {
-        // dictionary 를 이용 ..
-    }
+//    public static boolean isValid(String word) {
+//        // dictionary 를 이용 ..
+//    }
 
-    public static List<String> suggestions(String typo) {
-        // dictionary 를 이용 ..
-    }
+//    public static List<String> suggestions(String typo) {
+//        // dictionary 를 이용 ..
+//    }
 }
